@@ -18,8 +18,7 @@ The museum data used in this project is stored in the museums_Mexico_City.csv fi
 ### Output
 Dashboard Datos Abiertos SAT
 
-|----------------------------|------------------|
+
 |<img src="images/image1.jpg">|<img src="images/image2.jpg">|
 |-----------------------------|------------------|
 
-You can select the years.
