@@ -1,11 +1,11 @@
 # DataVisualization
 
 ### Requirements
-streamlit==1.18.1
-pandas==1.4.4
-matplotlib==3.5.2
-seaborn==0.11.2
-numpy==1.21.5
+- streamlit==1.18.1
+- pandas==1.4.4
+- matplotlib==3.5.2
+- seaborn==0.11.2
+- numpy==1.21.5
 
 ### Usage
 - Clone or download the repository to your local machine
