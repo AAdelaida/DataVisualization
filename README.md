@@ -13,7 +13,7 @@
 - Run with streamlit the DatosAbiertos.py file
 
 ### Data
-The museum data used in this project is stored in the museums_Mexico_City.csv file. This file contains for each museum: the name, image URL, website URL, as well as data about if the museum has terrace and I have visit it.
+The data used in this project is downloaded from the Official Open Data Site of the Mexican Government.
 
 ### Output
 Dashboard Datos Abiertos SAT
