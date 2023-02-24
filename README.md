@@ -18,7 +18,8 @@ The data used in this project is downloaded from the Official Open Data Site of 
 ### Output
 Dashboard Datos Abiertos SAT
 
+<img src="images/image1.jpg">
 
-|<img src="images/image1.jpg">|<img src="images/image2.jpg">|
-|-----------------------------|------------------|
+<img src="images/image2.jpg">
+
 
