@@ -190,7 +190,7 @@ if not df_contribuyentesActivos.empty:
     st.pyplot(fig)
 
 
-st.markdown("""Movimientos al RFC por año""")
+st.markdown("""Movimientos al RFC por año (información disponible a partir de 2015""")
 
 # Generar gráfica de movimientos al RFC
 if not df_inscripciones_seleccionados.empty:
