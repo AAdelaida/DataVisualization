@@ -125,7 +125,6 @@ columns = ["Año",
            "Transportes, correos y almacenamiento",
           ]
 df_contribuyentesActivos = formatea_padronRFC(data, columns)
-df_contribuyentesActivos.head()
 
 
 # In[ ]:
@@ -160,11 +159,11 @@ st.sidebar.markdown("""
 Sitio oficial de Datos Abiertos del Gobierno de México, el cual publica datos con las características técnicas 
 y legales necesarias para que cualquiera, en cualquier lugar y momento, los pueda usar, reusar y distribuir libremente.
 
-Aquí [https://datos.gob.mx](!https://datos.gob.mx) podrás descargar en formato libre todos los datos abiertos del Gobierno,
+En [https://datos.gob.mx](https://datos.gob.mx) podrás descargar en formato libre todos los datos abiertos del Gobierno,
 estados, municipios y órganos autónomos que han decidido sumarse para incrementar el beneficio de abrir información pública.
 """)
 
-# Selector de años
+# Selector de años Factura Electrónica
 años = [2011,2012,2013,2014,2015,2016,2017,2018, 2019,2020,2021,2022,2023]
 años_seleccionados = st.sidebar.multiselect('Años', años, años)
 
@@ -190,7 +189,7 @@ if not df_contribuyentesActivos.empty:
     st.pyplot(fig)
 
 
-st.markdown("""Movimientos al RFC por año (***información disponible a partir de 2015***)""")
+st.markdown("""Movimientos al RFC por año (información disponible a partir de 2015)""")
 
 # Generar gráfica de movimientos al RFC
 if not df_inscripciones_seleccionados.empty:
